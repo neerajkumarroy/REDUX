@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
@@ -64,6 +65,9 @@
   padding: 20px;
   height: 70px;
 }
+.item:hover{  
+  color: orangered;
+}
 .add-to-cart img{
   width: 80px;
     position: absolute;
@@ -91,6 +95,27 @@
   background-color:red !important ;
   margin-top: 5px;
 }
+
+.name{
+  position: absolute;
+  top: 0;
+  opacity: 0.7;
+}
+.addtocart
+{
+  margin-right: -812px;
+}
+
+.nav-underline{
+  gap: 81px;
+  font-size: 21px;
+  margin-left: 5px;
+}
+.active{
+  color: white;
+}
+
+
 /* ----------------------------------------------------------------------- */
 
 
@@ -113,13 +138,5 @@
   height: 100%;
   object-fit: cover; /* Ensures the video fills its container while maintaining aspect ratio */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adds a box shadow to the video */
-}
-.name{
-  position: absolute;
-  top: 0;
-  opacity: 0.7;
-}
-.addtocart
-{
-  margin-right: -812px;
+  margin-bottom: -6px;
 }

@@ -11,9 +11,9 @@ function Home(props) {
           <source src={video1} type="video/mp4" />
         </video>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-6">
             <div className="name">
               <span className="cart-count count">{props.data.length}</span>
               <div className="add-to-cart img">
@@ -23,10 +23,28 @@ function Home(props) {
                   alt=""
                 />
               </div>
-              <h1>
-                {" "}
-                <span style={{ color: "orange" }}>FooD-</span>Dashboard
-              </h1>
+              <ul class="nav nav-underline" style={{ gap: "90px" }}>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#"
+                    style={{ color: "orangered" }}
+                  >
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#" style={{ color: "white" }}>
+                    About Us
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style={{ color: "white" }}>
+                    Contact Us
+                  </a>
+                </li>
+              </ul>
               <div className="cart-wrapper">
                 <div className="img-wrapper item">
                   <img
