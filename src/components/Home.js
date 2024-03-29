@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import video1 from "../assets/video1.mp4";
+import { Link } from "react-router-dom";
 
 function Home(props) {
   console.log("Props", props);
@@ -25,24 +26,24 @@ function Home(props) {
               </div>
               <ul class="nav nav-underline" style={{ gap: "90px" }}>
                 <li class="nav-item">
-                  <a
+                  <Link
                     class="nav-link active"
                     aria-current="page"
                     href="#"
                     style={{ color: "orangered" }}
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a class="nav-link" href="#" style={{ color: "white" }}>
+                  <Link class="nav-link" href="#" style={{ color: "white" }}>
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" style={{ color: "white" }}>
+                  <Link class="nav-link" href="#" style={{ color: "white" }}>
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <div className="cart-wrapper">
