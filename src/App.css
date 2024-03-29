@@ -31,6 +31,7 @@
   border-radius: 4px;
   color: #fff;
   box-shadow: #333 0px 1px 5px;
+  width: 131px;
 }
 .btn-wrapper button:hover {
   background-color: red;
@@ -72,15 +73,19 @@
 .cart-count{
   
   position: absolute;
-  right: 19px;
-    top: 7px;
+  right: 27px;
+  top: 7px;
   z-index: 1;
   background-color: red;
-  padding: 7px;
-  width: 20px;
-  height: 20px;
+  padding: 0px;
+  width: 26px;
+  height: 27px;
   border-radius: 50%;
   color: #fff;
+  
+}
+.count{
+  margin-right: -820px;
 }
 .remove-btn{
   background-color:red !important ;
@@ -100,4 +105,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video fills its container while maintaining aspect ratio */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adds a box shadow to the video */
+}
+.name{
+  position: absolute;
+  top: 0;
+  opacity: 0.7;
+}
+.addtocart
+{
+  margin-right: -812px;
 }

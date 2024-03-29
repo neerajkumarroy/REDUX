@@ -4,10 +4,10 @@ function Header(props) {
   return (
     <div>
       <div className="add-to-cart img">
-        <img
+        {/* <img
           src="https://cdn-icons-png.flaticon.com/512/4357/4357325.png"
           alt=""
-        />
+        /> */}
       </div>
     </div>
   );
